@@ -1,0 +1,9 @@
+.root {
+  height: 70vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  
+  &::-webkit-scrollbar {
+    display: none; /*chrome*/
+  }
+}

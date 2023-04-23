@@ -1,0 +1,86 @@
+.color_pick {
+    position: absolute;
+    left: -10px;
+    top:calc(100% + 7px);
+    width: fit-content;
+    background: rgba(50, 50, 56, 1);
+    border: 2px solid #29292a;
+    z-index: 200;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 10px;
+    animation: color-picker-enter forwards 0.4s ease-out;
+    .arrow {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        left: 20px;
+        top:-10px;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-bottom: 10px solid #29292a;
+    }
+    .in {
+        overflow: hidden;
+        transition: all 2s;
+        position: relative;
+        .main {
+            .row {
+                display: flex;
+                flex-direction: row;
+                max-width: 314px;
+                width: fit-content;
+                
+                .block {
+                    border-radius: 50px;
+                    width: 38px;
+                    height: 38px;
+                    flex:none;
+                    cursor: pointer;
+                    transition: all 0.2s;
+                    &:not(:last-child) {
+                        margin-right: 4px;
+                    }
+                    &:hover {
+                        opacity: 0.85;
+                    }
+                    &:active {
+                        opacity: 0.7;
+                    }
+                }
+                .white {
+                    background: white;
+                }
+                .red {
+                    background: #b80000;
+                }
+                .orange {
+                    background: #db3e00;
+                }
+                .yellow {
+                    background: #fccb00;
+                }
+                .green {
+                    background: #008b02;
+                }
+                .blue {
+                    background: #1273de;
+                }
+                .purple {
+                    background: #5300eb;
+                }
+            }
+        }
+    }
+}
+
+@keyframes color-picker-enter {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

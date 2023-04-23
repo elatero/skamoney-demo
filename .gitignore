@@ -1,0 +1,13 @@
+# ignore build & node_mobules
+node_modules
+build
+dist
+
+#ignore logs
+*.log
+
+#ENV
+.env.local
+
+#locals
+.vscode

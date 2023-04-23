@@ -1,0 +1,147 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 14rem;
+}
+
+.container {
+  position: relative;
+  background: rgba(50, 50, 57, 0.8);
+  background-image: url('../../../../assets/images/profile/profileBg.png');
+  background-position: top center;
+  background-size: cover;
+  border-radius: 0.875rem;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.mainInfo {
+  display: flex;
+  position: absolute;
+  top: -3rem;
+  left: 1rem;
+}
+
+.avatarBox {
+  display: flex;
+  position: relative;
+  min-width: 6.75rem;
+  min-height: 6.75rem;
+}
+
+.avatar {
+  display: block;
+  width: 6.75rem;
+  height: 6.75rem;
+  border-radius: 100%;
+}
+
+.avatarFrame {
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.infoContainer {
+  padding: 1rem;
+}
+
+.userStatus {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;  
+  color: #FFFFFF;
+  background: transparent;
+  border-style: solid;
+  border-width: 1px;
+  height: 1.5rem;
+  padding: 0 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.coinsBox {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.coins {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #b8b8b8;
+  margin-right: 0.25rem;
+  margin-top: 0.125rem;
+}
+
+
+.separator {
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.moreInfo {
+  padding: 0.5rem 1rem 1rem;
+  max-height: 6rem;
+}
+
+.infoStatistic {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.infoTitle {
+  font-size: 0.875ren;
+  line-height: 1rem;
+  font-weight: 600;
+  color: #b8b8b8;
+  margin-right: 0.25rem;
+}
+
+.infoBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.infoProperty {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 600;  
+  color: #fdc400;
+  margin-right: 0.25rem;
+}
+
+.infoTeam {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #fdc400;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 600;
+  color: #fdc400;
+}
+

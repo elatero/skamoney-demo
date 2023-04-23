@@ -1,0 +1,80 @@
+.root {
+  padding: 1rem;
+  background-color: rgba(50, 50, 57, 0.8);
+  border-radius: 0.875rem;
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.moneybox {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.name {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 600;  
+  color: #b8b8b8;
+  margin-top: 0.125rem;
+}
+
+.count {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: bold;  
+  color: #ffffff;
+  margin: 0.125rem 0.25rem 0;
+}
+
+.raiseBtn {
+  background: linear-gradient(180deg, #FDD200 0%, #FD8900 100%);
+  border-radius: 1rem;
+  min-width: 6.5rem;
+  height: 1.75rem;
+  border: none;
+  color: #ffffff;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.raiseBtn:disabled {
+  filter: opacity(85%);
+}
+
+.timer {
+  display: contents;
+  margin-right: 0.25rem;
+}
+
+.earnedBtn {
+  height: 2.5rem;
+  width: 100%;
+  background: linear-gradient(180deg, #FDD200 0%, #FD8900 100%);
+  border-radius: 0.5rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  cursor: pointer;
+}
+
+.coinWhite {
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+}

@@ -1,0 +1,13 @@
+.root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #201F23;
+}
+
+.wrapper {
+  flex: 1;
+  background-image: url('../../assets/images/mainBg.png');
+  background-repeat: repeat-x;
+}

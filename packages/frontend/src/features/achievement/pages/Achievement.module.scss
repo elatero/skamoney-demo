@@ -1,0 +1,17 @@
+.root {
+  padding: 1.5rem 1.5rem 0;
+}
+
+.achievementList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+
+  @media screen and (min-width: 30rem) {
+    gap: 1rem
+  }
+}
+
+.button {
+  justify-content: center;
+}

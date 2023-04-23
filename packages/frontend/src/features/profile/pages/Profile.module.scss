@@ -1,0 +1,98 @@
+.root {
+  padding: 1.5rem 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.invetedSkammerBtn {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin: 1rem 0;
+  background: linear-gradient(173.23deg, #A7F43E 2.52%, #94B422 97.49%);
+  border-radius: 0.5rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 600;  
+}
+
+.invetedSkammerImg {
+  margin-right: 0.5rem;
+}
+
+.noticeBtn {
+  width: 100%;
+  height: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #29292A;
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.875rem;
+}
+
+.noticeWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noticeText {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 0.5rem;
+  
+  @media screen and (max-width: 32.5rem) {
+    width: min-content;
+  }
+}
+
+.removeBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(173.23deg, #F4493E 2.52%, #B42222 97.49%);
+  border-radius: 0.75rem;
+  min-height: 3rem;
+  border: none;
+  width: 100%;
+  margin-bottom: 0.875rem;
+}
+
+.removeText {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 0.5rem;
+}
+
+// button refresh
+.refresh {
+  -webkit-animation: spin 1s linear 1;
+  -moz-animation: spin 1s linear 1;
+  animation: spin 1s linear 1;
+}
+
+@-moz-keyframes spin { 
+  100% { -moz-transform: rotate(360deg); } 
+}
+
+@-webkit-keyframes spin { 
+  100% { -webkit-transform: rotate(360deg); } 
+}
+
+@keyframes spin { 
+  100% { 
+      -webkit-transform: rotate(360deg); 
+      transform:rotate(360deg); 
+  } 
+}
